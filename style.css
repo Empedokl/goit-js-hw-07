@@ -1,0 +1,36 @@
+ul{
+    list-style: none;
+    padding: 0px;
+    margin : 0px;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gallery li {
+    padding: 10px;
+}
+#counter {
+    padding-bottom: 20px;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  #validation-input.valid {
+    border-color: #4caf50;
+  }
+  
+  #validation-input.invalid {
+    border-color: #f44336;
+  }
